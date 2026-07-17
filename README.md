@@ -10,6 +10,7 @@ Store embeddings in a vector index
 Perform similarity search (reverse image search)
 Query using REST APIs
 Interact via a React frontend interface
+
 🏗 System Architecture
 
 1️⃣ Image Scraping (Ingestion Layer)
