@@ -1,5 +1,7 @@
-# Her-Safe-Space
-Developed a semantic image retrieval system using OpenCLIP embeddings and FAISS vector indexing, enabling sub-second similarity search across a dataset of 5,000+ images. Expanded dataset coverage by 40% through automated web scraping.
+An end-to-end AI-powered system that scrapes images from websites, generates vector embeddings using deep learning models, and performs high-speed similarity search using vector indexing.
+
+This project integrates Web Scraping + Computer Vision + Vector Search + Full Stack Development into a single application.
+
 
 🚀 Project Overview
 This tool allows you to:
@@ -12,7 +14,6 @@ Query using REST APIs
 Interact via a React frontend interface
 
 🏗 System Architecture
-
 1️⃣ Image Scraping (Ingestion Layer)
 Scrapes images from target URLs
 Downloads and stores them locally
@@ -34,8 +35,8 @@ React-based UI
 Upload image and view similar results
 
 📂 Project Structure
-AI-Based-Image-Similarity-WEB-Scrapping-tool/
 
+AI-Based-Image-Similarity-WEB-Scrapping-tool/
 │
 ├── api/                # Backend API endpoints
 ├── ingestion/          # Web scraping logic
@@ -48,7 +49,8 @@ AI-Based-Image-Similarity-WEB-Scrapping-tool/
 ├── tests/              # Unit and integration tests
 ├── requirements.txt    # Python dependencies
 └── README.md
-🔹 Backend Setup (Python)
+
+Backend Setup (Python)
 Create Virtual Environment
 python -m venv venv
 
@@ -107,7 +109,9 @@ Create new branch
 Commit changes
 Push branch
 Create Pull Request
+
 📄 License
 No license specified. Consider adding MIT License.
+
 
 ⭐ If you find this project useful, give it a star on GitHub!
