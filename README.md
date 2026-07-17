@@ -13,18 +13,23 @@ Interact via a React frontend interface
 1️⃣ Image Scraping (Ingestion Layer)
 Scrapes images from target URLs
 Downloads and stores them locally
+
 2️⃣ Embedding Layer
 Converts images into numerical vectors using pretrained AI models
+
 3️⃣ Vector Index Layer
 Stores embeddings efficiently
 Enables fast nearest-neighbor search
+
 4️⃣ Query Layer
 Accepts query image
 Generates embedding
 Returns top-K similar images
+
 5️⃣ Frontend Layer
 React-based UI
 Upload image and view similar results
+
 📂 Project Structure
 AI-Based-Image-Similarity-WEB-Scrapping-tool/
 │
