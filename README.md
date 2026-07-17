@@ -34,6 +34,7 @@ Upload image and view similar results
 
 📂 Project Structure
 AI-Based-Image-Similarity-WEB-Scrapping-tool/
+
 │
 ├── api/                # Backend API endpoints
 ├── ingestion/          # Web scraping logic
@@ -46,3 +47,65 @@ AI-Based-Image-Similarity-WEB-Scrapping-tool/
 ├── tests/              # Unit and integration tests
 ├── requirements.txt    # Python dependencies
 └── README.md
+🔹 Backend Setup (Python)
+Create Virtual Environment
+python -m venv venv
+
+Activate Virtual Environment
+Windows: venv\Scripts{=tex}\activate{=tex}
+
+Mac/Linux: source venv/bin/activate
+
+Install Dependencies
+pip install -r requirements.txt
+
+Run Backend Server
+python main.py
+
+Backend runs at: http://localhost:8000
+
+🔹 Frontend Setup (React)
+cd frontend-react npm install npm start
+
+Frontend runs at: http://localhost:3000
+
+📡 API Endpoints
+Method Endpoint Description
+
+POST /ingest Scrape and index images POST /query Find similar images GET /status Health check
+
+🧠 How Similarity Search Works
+Image is converted into embedding vector.
+Embedding stored in vector index.
+Query image converted to embedding.
+Nearest neighbor search is performed.
+Top similar images returned.
+🧪 Run Tests
+pytest tests/
+
+📦 Tech Stack
+Python
+React.js
+REST API
+Vector Search (FAISS or similar library)
+Web Scraping (BeautifulSoup, Requests)
+AI Embedding Models (CNN / Pretrained Model)
+
+🔮 Future Improvements
+Docker support
+Cloud deployment (AWS / GCP)
+Authentication system
+Database integration
+Advanced models (CLIP, ViT)
+Scalable distributed indexing
+
+🤝 Contribution
+Fork repository
+Create new branch
+Commit changes
+Push branch
+Create Pull Request
+📄 License
+No license specified. Consider adding MIT License.
+
+⭐ If you find this project useful, give it a star on GitHub!
