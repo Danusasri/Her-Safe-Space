@@ -80,6 +80,7 @@ Embedding stored in vector index.
 Query image converted to embedding.
 Nearest neighbor search is performed.
 Top similar images returned.
+
 🧪 Run Tests
 pytest tests/
 
