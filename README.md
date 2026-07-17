@@ -14,6 +14,7 @@ Query using REST APIs
 Interact via a React frontend interface
 
 🏗 System Architecture
+
 1️⃣ Image Scraping (Ingestion Layer)
 Scrapes images from target URLs
 Downloads and stores them locally
